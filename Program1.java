@@ -34,14 +34,17 @@ public class Program1
         
         average = (price1 + price2 + price3) / 3;
         
-        if(item1.equalsIgnoreCase("Peas") || item2.equalsIgnoreCase("Peas") 
-                                         || item3.equalsIgnoreCase("Peas"))
-        {
-            System.out.println("The average is: " + average); 
-        } else
-        {
-            System.out.println("no average output");
-        }
+        System.out.println("The average is: " + average);
+        
+         
+    }
+}
+      
+          
+       
+       
+      
+        
        
         
       
@@ -52,6 +55,6 @@ public class Program1
         
         
         
-    }
     
-}
+    
+
